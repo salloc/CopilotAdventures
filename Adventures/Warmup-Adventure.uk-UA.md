@@ -16,7 +16,7 @@ GitHub Copilot — це парний програміст на основі шт
 
 Якщо ви зовсім новачок у GitHub Copilot, подивіться це відео, щоб дізнатися більше про переваги його використання у вашому робочому процесі. Після перегляду відео поверніться сюди та оберіть пригоду, щоб почати.
 
-[![Відео про GitHub Copilot](../Images/copilot-video.png)](https://www.youtube.com/watch?v=Dlt-DCLHnxM)
+[![Відео про GitHub Copilot](../Images/copilot-video.png)](https://www.youtube.com/watch?v=tMcR_qqV8zg)
 
 ## Початок роботи: Встановлення розширення GitHub Copilot
 
