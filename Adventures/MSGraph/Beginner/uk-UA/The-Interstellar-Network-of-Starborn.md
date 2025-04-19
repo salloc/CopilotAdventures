@@ -1,59 +1,59 @@
-## The Interstellar Network of Starborn
+## Міжзоряна мережа Зоренароджених
 
 <a href="#">
     <img src="../../../Images/starborn.jpg" style="width: 830px" />
 </a>
 
-### Background
+### Передісторія
 
-In a galaxy far, far away, civilizations have advanced to the point where interstellar travel and settling on distant planets have become commonplace. Each planet is inhabited by "Starborn", humans who have adapted and evolved according to their new home planets.
+У далекій-далекій галактиці цивілізації досягли рівня, коли міжзоряні подорожі та колонізація віддалених планет стали звичайною справою. Кожна планета населена «Зоренародженими» — людьми, які адаптувалися та еволюціонували відповідно до умов своїх нових домів.
 
-The Starborn civilizations are connected by a vast digital network known as the "Interstellar Network". The primary purpose of this network is to maintain records of each Starborn and their roles in the interstellar community.
+Цивілізації Зоренароджених об’єднані величезною цифровою мережею, відомою як «Міжзоряна мережа». Головна мета цієї мережі — зберігати дані про кожного Зоренародженого та їхні ролі в міжзоряному співтоваристві.
 
-As planets and stars have their own orbits and hierarchies, so do the Starborn. Each Starborn has a direct superior they report to, and this chain goes up to the Cosmic Overlord, the leader of the entire Starborn civilization.
+Як планети й зорі мають власні орбіти та ієрархії, так само і Зоренароджені мають свій ланцюг командування. Кожен Зоренароджений підпорядковується безпосередньому керівнику, а цей ланцюг веде аж до Космічного Верховного Володаря — лідера всієї цивілізації Зоренароджених.
 
-### Objective
+### Мета
 
-You are a newly appointed Systems Keeper on the planet Azurea. Your first task is to access the Interstellar Network tenant and perform the following tasks:
+Ви — нещодавно призначений Хранитель Систем на планеті Азуреа. Ваше перше завдання — отримати доступ до орендаря Міжзоряної мережі і виконати такі кроки:
 
-1. Create an Interstellar Network tenant (if you don't have one already) by [visiting their website](https://developer.microsoft.com/microsoft-365/dev-program) and joining the program.
-1. Study the [documentation](https://learn.microsoft.com/training/paths/m365-msgraph-fundamentals/) to learn how to access the Interstellar Network.
-1. Although the Intersteller Network is extremely advanced, they still use HTML and JavaScript. To interact with their network, create a simple HTML page with JavaScript that does the following:
-    - Sign into the Interstellar Network using your Starborn credentials.
-    - Display your profile information.
-    - Determine and display who you directly report to in the interstellar hierarchy.
+1. Створіть орендаря Міжзоряної мережі (якщо у вас його ще немає), [перейшовши на цей сайт](https://developer.microsoft.com/microsoft-365/dev-program) та приєднавшись до програми.
+1. Вивчіть [документацію](https://learn.microsoft.com/training/paths/m365-msgraph-fundamentals/), щоб дізнатися, як отримати доступ до Міжзоряної мережі.
+1. Хоча мережа дуже розвинена, для взаємодії з нею використовується HTML та JavaScript. Створіть просту HTML-сторінку з JavaScript, яка виконує такі дії:
+    - Увійдіть до Міжзоряної мережі, використавши свої облікові дані Зоренароджених.
+    - Відобразіть інформацію свого профілю.
+    - Визначте та відобразіть, кому ви безпосередньо підпорядковуєтеся у міжзоряній ієрархії.
 
-### Specifications
+### Вимоги
 
-1. **Sign-In**:
-    - Access the Interstellar Network and sign in using your Starborn credentials.
-    - Retrieve and display your profile to ensure you've accessed the correct account.
+1. **Авторизація:**
+    - Отримайте доступ до Міжзоряної мережі та увійдіть, використавши свої облікові дані Зоренароджених.
+    - Отримайте та відобразіть свій профіль, щоб переконатися, що ви увійшли у правильний обліковий запис.
 
-1. **Hierarchy Lookup**:
-    - Once signed in, use the network to determine who you report to directly.
-    - Display the profile of your direct superior.
+1. **Перевірка ієрархії:**
+    - Після входу визначте, кому ви безпосередньо підпорядковуєтеся.
+    - Відобразіть профіль вашого безпосереднього керівника.
 
-1. **API Endpoints**:
-    - Use the `/me` endpoint to retrieve your Interstellar Network profile.
-    - Use the `/me/manager` endpoint to retrieve the profile of your direct superior.
+1. **API-ендпоінти:**
+    - Використайте `/me` для отримання вашого профілю в Міжзоряній мережі.
+    - Використайте `/me/manager` для отримання профілю вашого безпосереднього керівника.
 
-### Constraints
+### Обмеження
 
-- Write a console application.
-- Use the Microsoft Graph API to interact with the Interstellar Network.
-- Ensure secure and efficient access to the network.
-- Handle any potential errors or access issues gracefully.
+* Напишіть консольний додаток.
+* Використовуйте Microsoft Graph API для взаємодії з Міжзоряною мережею.
+* Забезпечте безпечний та ефективний доступ до мережі.
+* Коректно обробляйте можливі помилки та проблеми з доступом.
 
-### Summary of High-Level Tasks to Perform
+### Підсумок основних завдань
 
-1. Make an API call to sign in and retrieve your profile using the `/me` endpoint.
-2. Display your profile information.
-3. Make another API call to the `/me/manager` endpoint to determine your direct superior.
-4. Display the profile of your direct superior.
+1. Виконайте API-запит до `/me`, щоб отримати свій профіль.
+1. Відобразіть інформацію вашого профілю.
+1. Виконайте запит до `/me/manager`, щоб дізнатися вашого безпосереднього керівника.
+1. Відобразіть профіль вашого безпосереднього керівника.
 
-### Sample Data
+### Приклад даних
 
-After signing into the Interstellar Network, your profile will follow a format similar to the following:
+Після входу в Міжзоряну мережу ваш профіль матиме формат, подібний до наведеного нижче:
 
 ```json
 {

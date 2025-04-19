@@ -1,116 +1,108 @@
-## The Legendary Duel of Stonevale
+## Легендарний поєдинок Стоунвейла
 
 <a href="#">
     <img src="../../Images/stonevale.jpg" style="width: 830px" />
 </a>
 
-### Background
+### Передісторія
 
-In the mystical realm of Stonevale, two warriors, Rok and Papyra, are chosen for a duel that determines the fate of their tribes for the next century. The arena, known as Scissoria, is where each move carries weight and consequences.
+У містичному царстві Стоунвейл двох воїнів, Рока та Папіру, обрано для поєдинку, який визначатиме долю їхніх племен на наступне століття. Арена, відома як Ціссорія, — місце, де кожен хід має вагу та наслідки.
 
-### Objective
+### Мета
 
-Your task is to simulate the duel between Rok and Papyra. Each warrior makes a series of moves, and each move has a specific outcome. To win the duel, a warrior must accumulate the highest score over a series of rounds.
+Ваше завдання — змоделювати поєдинок між Роком і Папірою. Кожен воїн виконує серію ходів, і кожен хід має певний результат. Щоб перемогти, воїн повинен набрати найбільшу кількість очок за низку раундів.
 
-### Specifications
+### Вимоги
 
-1. **Moves and Points:**
-    - Each warrior can make one of three moves: rock, paper, or scissors.
-        - A rock win = 1 point
-        - A paper win = 2 points
-        - A scissors win = 3 points
+1. **Ходи та бали:**
+    - Кожен воїн може обрати один із трьох ходів: камінь, папір або ножиці.
+        - Перемога каменя = 1 бал
+        - Перемога паперу = 2 бали
+        - Перемога ножиць = 3 бали
 
-1. **Duel Dynamics:**
-    - When both warriors choose the same move, it's a draw, and no points are awarded.
-    - Rock crushes scissors, paper covers rock, and scissors cut paper.
-    - Points are awarded based on the winning move.
+2. **Динаміка поєдинку:**
+    - Якщо обидва воїни обирають однаковий хід, це нічия, і бали не нараховуються.
+    - Камінь розбиває ножиці, папір накриває камінь, ножиці ріжуть папір.
+    - Бали нараховуються відповідно до переможного ходу.
 
-1. **Gameplay:**
-    - The duel consists of 5 rounds.
-    - The goal is to accumulate the highest score over these rounds to win the duel.
+3. **Гра:**
+    - Поєдинок складається з 5 раундів.
+    - Мета — заробити найбільшу кількість очок за ці раунди.
 
-1. **Player Moves:**
+4. **Ходи гравців:**
 
-    **Moves for Rok (Player 1)**
+    **Ходи Рока (Гравець 1)**
 
-    | Round 1 | Round 2 | Round 3 | Round 4 | Round 5 |
+    | Раунд 1   | Раунд 2 | Раунд 3  | Раунд 4 | Раунд 5 |
+    |-----------|---------|----------|---------|---------|
+    | ножиці    | папір   | ножиці   | камінь  | камінь  |
+
+    **Ходи Папіри (Гравець 2)**
+
+    | Раунд 1 | Раунд 2 | Раунд 3 | Раунд 4 | Раунд 5 |
     |---------|---------|---------|---------|---------|
-    | scissors    | paper   | scissors| rock    | rock   |
+    | камінь  | камінь  | папір   | ножиці  | папір   |
 
-    **Moves for Paprya (Player 2)**
+5. **Додаткові можливості (якщо є час):**
+    - Реалізувати систему підказок, яка радитиме хід гравцеві.
+    - Дозволити гравцям обирати ходи для кожного раунду замість автоматичного вибору.
 
-    | Round 1 | Round 2 | Round 3 | Round 4 | Round 5 |
-    |---------|---------|---------|---------|---------|
-    | rock | rock    | paper   | scissors| paper    |
+### Обмеження
 
+* Виконуйте симуляцію за допомогою GitHub Copilot та будь-якої мови на ваш вибір.
+* Забезпечте ефективність алгоритмів для динаміки поєдинку. Запитайте GitHub Copilot/Chat: «Як зробити код більше читабельним та підтримуваним?».
+* Надання графічного інтерфейсу для симуляції необов’язкове.
 
-1. **Advanced Features (if time permits):**
-    - Implement a hint system that suggests a move to the player.
-    - Players can select their move for each round rather than it being automated.
+### Підсумок основних завдань
 
-### Constraints
+1. Використати консольний додаток для виведення результатів.
+2. Ініціалізувати рахунки обох воїнів.
+3. Кожен воїн обирає хід для кожного раунду.
+4. Визначити переможця кожного раунду та нарахувати бали.
+5. Підсумувати бали після 5 раундів.
+6. Оголосити загального переможця поєдинку.
 
-- Write the simulation using GitHub Copilot and any language you choose. Try learning a new language if you're up for the challenge!
-- Ensure efficient algorithms to handle the duel dynamics. Ask GitHub Copilot/Chat, "How can I make this code more readable and maintainable?".
-- Providing a graphical user interface for the simulation is optional.
+### Поради для початку
 
-### Summary of High-Level Tasks to Perform
-
-1. Use a console application to render the output.
-1. Initialize scores for both warriors.
-1. Each warrior selects a move for each round.
-1. Determine the winner of each round and award the points.
-1. Tally the scores after 5 rounds.
-1. Declare the overall winner of the duel.
-
-### Tips to Get Started
-
-1. If you're using a GitHub Codespace, you're ready to go!
-1. If running locally, ensure that you have your target language/framework installed. 
+1. Якщо ви використовуєте GitHub Codespace, можете починати!
+2. Якщо працюєте локально, переконайтеся, що у вас встановлена потрібна мова/фреймворк.
     - [Node.js](https://nodejs.org)
     - [Python](https://www.python.org/downloads/)
     - [.NET](https://dot.net)
-1. Create a folder for your code. 
-    - JavaScript: Create a folder called `stonevale` and add a file named `app.js`.
-    - Python: Create a folder called `stonevale` and add a file named `app.py`.
-    - C#: Create a folder called `stonevale` and run `dotnet new console`.
+3. Створіть папку для коду.
+    - JavaScript: створіть папку `stonevale` і додайте файл `app.js`.
+    - Python: створіть папку `stonevale` і додайте файл `app.py`.
+    - C#: створіть папку `stonevale` і виконайте `dotnet new console`.
 
-### GitHub Copilot Tips
+### Поради GitHub Copilot
 
 <a href="#">
-    <img src="../../Images/copilot-tips.jpg"  style="width: 830px" />
+    <img src="../../Images/copilot-tips.jpg" style="width: 830px" />
 </a>
 
-#### Use Copilot to improve efficiency
+#### Використовуйте Copilot для підвищення ефективності
 
-See if you can use Copilot to find out the complexity (BigO notation) of the code.
+Спробуйте дізнатися у Copilot складність алгоритму (нотація Big O).
 
-1. Open the [GitHub Copilot Chat view](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat#asking-your-first-question) in the sidebar if it's not already open. Make sure your solution file is still open as well.
+1. Відкрийте [GitHub Copilot Chat](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat#asking-your-first-question) у бічній панелі.
+2. Запитайте Copilot Chat про складність коду.
+3. Запитайте Copilot Chat про оптимізацію коду.
+4. Знову перевірте складність — чи покращилась вона?
 
-1. Ask Copilot Chat what the complexity of the code is.
+#### Використовуйте Copilot для генерації коментарів до коду
 
-1. Ask Copilot Chat to make the code more efficient.
+1. Виділіть увесь код за допомогою <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>A</kbd>.
+2. Натисніть <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>I</kbd>, щоб відкрити вбудований чат.
+3. Введіть `/doc` і натисніть Enter.
+4. Прийміть згенерований коментар.
 
-1. Ask for the complexity again - is it better?
+#### Використовуйте Copilot, щоб спростити код
 
-#### Use Copilot to generate code comments
+1. Відкрийте GitHub Copilot Chat у бічній панелі.
+2. Введіть `/simplify` і натисніть <kbd>Enter</kbd>.
+3. Перегляньте пропозиції для спрощення коду.
 
-1. Highlight all of the code with <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>A</kbd>.
+#### Виправлення помилок
 
-1. Press <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>I</kbd> to open the inline chat. 
+Скопіюйте повідомлення про помилку та вставте його в чат. Copilot Chat допоможе вирішити проблему.
 
-1. Type "/doc"
-
-1. Ask Copilot Chat to document the function.
-
-#### Use Copilot to simplify your code
-
-1. Open GitHub Copilot Chat in the sidebar.
-
-1. Type "/simplify" and press <kbd>Enter</kbd>. You can also add any text you want after the "/simplify" to give Copilot more instructions.
-
-1. What did Copilot Chat suggest you do to make it simpler?
-
-#### Got Errors?
-
-Copilot Chat can help with that too! Just copy the error message and paste it into Chat. Often that's all Copilot needs to resolve your issue.

@@ -1,92 +1,86 @@
-## The Scrolls of Eldoria
+## Сувої Ельдорії
 
 <a href="#">
     <img src="../../Images/eldoria.jpg" style="width: 830px" />
 </a>
 
-### Background
+### Передісторія
 
-In the enchanted land of Eldoria, ancient scrolls contain the secrets of the universe. These scrolls, however, were scattered and protected by the Elders using powerful spells. These spells concealed the secrets within the scrolls, adding layers of misleading information to deter prying eyes. Over time, these scrolls were digitized and stored in the Great Eldorian Library, accessible only through the Eldorian Web of Knowledge.
+У зачарованому королівстві Ельдорія стародавні сувої містять таємниці всесвіту. Проте їх розкидали та захистили Старійшини могутніми заклятьми. Ці закляття приховували справжні секрети в сувоях, додаючи шари оманливої інформації, щоб відлякати незваних гостей. З часом сувої оцифрували та зберегли у Великій Ельдорській бібліотеці, доступній лише через Ельдорійську Мережу Знань.
 
-### Objective
+### Мета
 
-You, a young sorcerer's apprentice, have been given the task to retrieve and decipher one such scroll. The scroll is stored as a file on the Eldorian Web of Knowledge. You have to make an HTTP call to fetch the scroll's content. However, the Elders' misleading information must be filtered out using the ancient method of Regular Expressions to reveal the true secrets within.
+Ви, молодий учень чарівника, отримали завдання знайти та розшифрувати один із цих сувоїв. Сувій зберігається у вигляді файлу в Ельдорійській Мережі Знань. Вам потрібно виконати HTTP-запит, щоб отримати вміст сувою. Оманливу інформацію Старійшин слід відфільтрувати за допомогою стародавнього методу регулярних виразів, щоб розкрити справжні секрети.
 
-### Specifications
+### Вимоги
 
-1. **Data Retrieval:**
-    - Use the magical HTTP call to fetch the scroll's content. You'll find the scroll in the Great Eldorian Library's `https://raw.githubusercontent.com/microsoft/CopilotAdventures/main/Data/scrolls.txt` location.
-    - The content will be in text format.
+1. **Отримання даних:**
+    - Використайте «магічний» HTTP-запит для отримання вмісту сувою за адресою:
 
-2. **Deciphering the Scroll:**
-    - The scroll contains both the Elders' secrets and misleading information.
-    - The true secrets have a specific pattern: they are always surrounded by the symbols `{*` and `*}`.
-    - Extract all the true secrets from the scroll.
+      `https://raw.githubusercontent.com/microsoft/CopilotAdventures/main/Data/scrolls.txt`
+    - Вміст буде у текстовому форматі.
 
-3. **Output:**
-    - Display the extracted secrets in a structured manner.
-    - Ensure that no misleading information is displayed.
+2. **Розшифрування сувою:**
+    - Сувій містить і справжні секрети, і шари оманливої інформації.
+    - Справжні секрети мають особливий шаблон: вони завжди оточені символами `{*` та `*}`.
+    - Витягніть усі справжні секрети з сувою.
 
-### Constraints
+3. **Вихідні дані:**
+    - Виведіть витягнуті секрети у структурованому вигляді.
+    - Переконайтеся, що жодна оманлива інформація не потрапить до виводу.
 
-- Write the simulation using GitHub Copilot and any language you choose. Try learning a new language if you're up for the challenge!
-- Ensure efficient algorithms to handle text retrieval and extraction. Ask GitHub Copilot/Chat, "How can I make this code more readable and maintainable?".
+### Обмеження
 
-### Summary of High-Level Tasks to Perform
+* Виконайте симуляцію за допомогою GitHub Copilot і будь-якої обраної вами мови. Якщо бажаєте, спробуйте вивчити нову мову!
+* Забезпечте ефективні алгоритми для обробки отримання тексту та його витягнення. Запитайте GitHub Copilot/Chat: «Як зробити код більш читабельним і підтримуваним?».
 
-1. Use a console application to render the output.
-1. Make an HTTP call to retrieve the content of the scroll.
-1. Use a regular expression to filter out the misleading information and extract the true secrets.
-1. Display the extracted secrets.
+### Підсумок основних завдань
 
-### Tips to Get Started
+1. Використати консольний додаток для виведення результатів.
+2. Виконати HTTP-запит для отримання вмісту сувою.
+3. Застосувати регулярний вираз для відфільтрування оманливої інформації та витягнення справжніх секретів.
+4. Вивести витягнуті секрети.
 
-1. If you're using a GitHub Codespace, you're ready to go!
-1. If running locally, ensure that you have your target language/framework installed. 
+### Поради для початку
+
+1. Якщо ви використовуєте GitHub Codespace, можете починати!
+2. Якщо працюєте локально, переконайтеся, що у вас встановлена обрана мова/фреймворк:
     - [Node.js](https://nodejs.org)
     - [Python](https://www.python.org/downloads/)
     - [.NET](https://dot.net)
-1. Create a folder for your code. 
-    - JavaScript: Create a folder called `eldoria` and add a file named `app.js`.
-    - Python: Create a folder called `eldoria` and add a file named `app.py`.
-    - C#: Create a folder called `eldoria` and run `dotnet new console`.
+3. Створіть папку для коду:
+    - JavaScript: створіть папку `eldoria` і додайте файл `app.js`.
+    - Python: створіть папку `eldoria` і додайте файл `app.py`.
+    - C#: створіть папку `eldoria` і виконайте `dotnet new console`.
 
-### GitHub Copilot Tips
+### Поради GitHub Copilot
 
 <a href="#">
-    <img src="../../Images/copilot-tips.jpg"  style="width: 830px" />
+    <img src="../../Images/copilot-tips.jpg" style="width: 830px" />
 </a>
 
-#### Use Copilot to improve efficiency
+#### Використовуйте Copilot для підвищення ефективності
 
-See if you can use Copilot to find out the complexity (BigO notation) of the code.
+Спробуйте дізнатися у Copilot складність алгоритму (нотація Big O).
 
-1. Open the [GitHub Copilot Chat view](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat#asking-your-first-question) in the sidebar if it's not already open. Make sure your solution file is still open as well.
+1. Відкрийте [GitHub Copilot Chat](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat#asking-your-first-question) у бічній панелі.
+2. Запитайте Copilot Chat про складність коду.
+3. Запитайте Copilot Chat про оптимізацію коду.
+4. Знову запитайте про складність — чи покращилась вона?
 
-1. Ask Copilot Chat what the complexity of the code is.
+#### Використовуйте Copilot для генерації коментарів до коду
 
-1. Ask Copilot Chat to make the code more efficient.
+1. Виділіть увесь код за допомогою <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>A</kbd>.
+2. Натисніть <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>I</kbd>, щоб відкрити вбудований чат.
+3. Введіть `/doc` і натисніть Enter.
+4. Прийміть згенерований коментар.
 
-1. Ask for the complexity again - is it better?
+#### Використовуйте Copilot, щоб спростити код
 
-#### Use Copilot to generate code comments
+1. Відкрийте GitHub Copilot Chat у бічній панелі.
+2. Введіть `/simplify` і натисніть <kbd>Enter</kbd>.
+3. Перегляньте пропозиції для спрощення коду.
 
-1. Highlight all of the code with <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>A</kbd>.
+#### Виправлення помилок
 
-1. Press <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>I</kbd> to open the inline chat. 
-
-1. Type "/doc"
-
-1. Ask Copilot Chat to document the function.
-
-#### Use Copilot to simplify your code
-
-1. Open GitHub Copilot Chat in the sidebar.
-
-1. Type "/simplify" and press <kbd>Enter</kbd>. You can also add any text you want after the "/simplify" to give Copilot more instructions.
-
-1. What did Copilot Chat suggest you do to make it simpler?
-
-#### Got Errors?
-
-Copilot Chat can help with that too! Just copy the error message and paste it into Chat. Often that's all Copilot needs to resolve your issue.
+Скопіюйте повідомлення про помилку та вставте його в чат. Copilot Chat допоможе вирішити проблему.

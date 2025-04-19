@@ -1,116 +1,108 @@
-## The Magical Forest of Algora
+## Чарівний ліс Алгора
 
 <a href="#">
     <img src="../../Images/algora-forest.jpg" style="width: 830px" />
 </a>
 
-### Background
+### Передісторія
 
-Deep within the enchanted Forest of Algora, two mystical creatures, the Lox and the Faelis, perform a sacred dance every millennium. This dance is not just for celebration but is a ritual to bring balance to the forest.
+Глибоко в зачарованому лісі Алгора дві містичні істоти, Локс та Феліс, виконують священний танок раз на тисячоліття. Цей танок — не лише святкування, а обряд для відновлення балансу в лісі.
 
-### Objective
+### Мета
 
-Your task is to simulate the dance between Lox and Faelis. Each creature has its own set of dance moves, and the combination of moves creates various magical effects in the forest. Your goal is to determine the state of the forest after the dance is complete.
+Ваше завдання — змоделювати танок Локса та Феліса. Кожна істота виконує свій набір рухів, а поєднання цих рухів створює різні магічні ефекти в лісі. Ваша мета — визначити стан лісу після завершення танцю.
 
-### Specifications
+### Вимоги
 
-1. **Dance Moves and Effects:**
-    - Each creature can perform one of three dance moves: `Twirl`, `Leap`, or `Spin`.
-    - The combination of moves from both creatures results in a magical effect:
-        - Twirl + Twirl = Fireflies light up the forest.
-        - Leap + Spin = Gentle rain starts falling.
-        - Spin + Leap = A rainbow appears in the sky.
-        - Other combinations create different effects that you can dream up.
-  
-2. **Dance Dynamics:**
-    - Each effect will change the state of the forest.
-    - Some effects can be beneficial, while others can be detrimental.
+1. **Рухи танцю та ефекти:**
+    - Кожна істота може виконати один з трьох рухів: `Twirl`, `Leap` або `Spin`.
+    - Поєднання рухів обох істот призводить до магічного ефекту:
+        - Twirl + Twirl = Сяйвом світлячків освітлюється ліс.
+        - Leap + Spin = Починає йти ніжний дощ.
+        - Spin + Leap = У небі з’являється райдуга.
+        - Інші комбінації створюють різні ефекти за вашим бажанням.
 
-3. **Dance Sequence:**
-    - The dance consists of 5 sequences.
-    - You need to display the state of the forest after each sequence.
+2. **Динаміка танцю:**
+    - Кожен ефект змінює стан лісу.
+    - Деякі ефекти можуть бути корисними, інші — шкідливими.
 
-4. **Creature Moves:**
+3. **Послідовність танцю:**
+    - Танок складається з 5 послідовностей.
+    - Потрібно виводити стан лісу після кожної послідовності.
 
-    **Moves for Lox (Creature 1)**
+4. **Рухи істот:**
 
-    | Sequence 1 | Sequence 2 | Sequence 3 | Sequence 4 | Sequence 5 |
-    |------------|------------|------------|------------|------------|
-    | Twirl      | Leap       | Spin       | Twirl      | Leap       |
+    **Рухи Локса (Істота 1)**
 
-    **Moves for Faelis (Creature 2)**
+    | Послідовність 1 | Послідовність 2 | Послідовність 3 | Послідовність 4 | Послідовність 5 |
+    |-----------------|-----------------|-----------------|-----------------|-----------------|
+    | Twirl           | Leap            | Spin            | Twirl           | Leap            |
 
-    | Sequence 1 | Sequence 2 | Sequence 3 | Sequence 4 | Sequence 5 |
-    |------------|------------|------------|------------|------------|
-    | Spin       | Twirl      | Leap       | Leap       | Spin       |
+    **Рухи Феліса (Істота 2)**
 
-5. **Advanced Features (if time permits):**
-    - Implement a system that allows users to add new dance moves and effects.
-    - Users can select the dance move for each sequence.
+    | Послідовність 1 | Послідовність 2 | Послідовність 3 | Послідовність 4 | Послідовність 5 |
+    |-----------------|-----------------|-----------------|-----------------|-----------------|
+    | Spin            | Twirl           | Leap            | Leap            | Spin            |
 
-### Constraints
+5. **Додаткові можливості (за наявності часу):**
+    - Реалізувати систему, що дозволяє користувачам додавати нові рухи та ефекти.
+    - Користувачі можуть обирати рух для кожної послідовності.
 
-- Use GitHub Copilot and write the simulation in any language you'd like.
-- Focus on clear and concise code that handles the dance dynamics efficiently. Ask GitHub Copilot/Chat, "How can I make this code more readable and maintainable?".
-- Creating a visual representation for the dance and effects is optional but encouraged if you have time.
+### Обмеження
 
-### Summary of High-Level Tasks to Perform
+- Використовуйте GitHub Copilot і напишіть симуляцію будь-якою мовою.
+- Зосередьтесь на чистому та лаконічному коді, який ефективно обробляє динаміку танцю. Запитайте GitHub Copilot/Chat: «Як зробити цей код більш читабельним та підтримуваним?».
+- Створення візуального представлення танцю та ефектів необов’язкове, але заохочується, якщо є час.
 
-1. Use a console application to render the output.
-1. Initialize the state of the forest.
-1. Each creature selects a dance move for each sequence.
-1. Determine the effect of the combined dance moves on the forest.
-1. Update the state of the forest after each sequence.
-1. Display the final state of the forest after the dance is complete.
+### Підсумок основних завдань
 
-### Tips to Get Started
+1. Використати консольний додаток для виведення результатів.
+1. Ініціалізувати стан лісу.
+1. Кожна істота вибирає рух для кожної послідовності.
+1. Визначити ефект поєднання рухів на стан лісу.
+1. Оновити стан лісу після кожної послідовності.
+1. Вивести фінальний стан лісу після завершення танцю.
 
-1. If you're using a GitHub Codespace, you're ready to go!
-1. If running locally, ensure that you have your target language/framework installed. 
+### Поради для початку
+
+1. Якщо ви використовуєте GitHub Codespace, можна почати!
+1. Якщо працюєте локально, переконайтеся, що у вас встановлена потрібна мова/фреймворк.
     - [Node.js](https://nodejs.org)
     - [Python](https://www.python.org/downloads/)
-    - [.NET](https://dot.net)
-1. Create a folder for your code. 
-    - JavaScript: Create a folder called `algora` and add a file named `app.js`.
-    - Python: Create a folder called `algora` and add a file named `app.py`.
-    - C#: Create a folder called `algora` and run `dotnet new console`.
+    - [.NET](https://dotnet)
+1. Створіть папку для коду.
+    - JavaScript: створіть папку `algora` і додайте файл `app.js`.
+    - Python: створіть папку `algora` і додайте файл `app.py`.
+    - C#: створіть папку `algora` і запустіть `dotnet new console`.
 
-### GitHub Copilot Tips
+### Поради GitHub Copilot
 
 <a href="#">
-    <img src="../../Images/copilot-tips.jpg"  style="width: 830px" />
+    <img src="../../Images/copilot-tips.jpg" style="width: 830px" />
 </a>
 
-#### Use Copilot to improve efficiency
+#### Використовуйте Copilot для підвищення ефективності
 
-See if you can use Copilot to find out the complexity (BigO notation) of the code.
+Спробуйте використати Copilot, щоб визначити складність алгоритму (нотація Big O).
 
-1. Open the [GitHub Copilot Chat view](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat#asking-your-first-question) in the sidebar if it's not already open. Make sure your solution file is still open as well.
+1. Відкрийте [вид чату GitHub Copilot](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat#asking-your-first-question) у бічній панелі.
+1. Запитайте Copilot Chat про складність цього коду.
+1. Запитайте Copilot Chat, щоб покращити ефективність коду.
+1. Знову запитайте про складність — чи покращилась вона?
 
-1. Ask Copilot Chat what the complexity of the code is.
+#### Використовуйте Copilot для генерації коментарів до коду
 
-1. Ask Copilot Chat to make the code more efficient.
+1. Виділіть увесь код за допомогою <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>A</kbd>.
+1. Натисніть <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>I</kbd>, щоб відкрити вбудований чат.
+1. Введіть `/doc`.
+1. Запитайте Copilot Chat згенерувати документацію для функції.
 
-1. Ask for the complexity again - is it better?
+#### Використовуйте Copilot, щоб спростити код
 
-#### Use Copilot to generate code comments
+1. Відкрийте GitHub Copilot Chat у бічній панелі.
+1. Введіть `/simplify` і натисніть <kbd>Enter</kbd>. Також можна додати текст після `/simplify`, щоб надати додаткові інструкції.
+1. Які пропозиції зробив Copilot Chat, щоб спростити код?
 
-1. Highlight all of the code with <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>A</kbd>.
+#### Помилки в коді?
 
-1. Press <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>I</kbd> to open the inline chat. 
-
-1. Type "/doc"
-
-1. Ask Copilot Chat to document the function.
-
-#### Use Copilot to simplify your code
-
-1. Open GitHub Copilot Chat in the sidebar.
-
-1. Type "/simplify" and press <kbd>Enter</kbd>. You can also add any text you want after the "/simplify" to give Copilot more instructions.
-
-1. What did Copilot Chat suggest you do to make it simpler?
-
-#### Got Errors?
-
-Copilot Chat can help with that too! Just copy the error message and paste it into Chat. Often that's all Copilot needs to resolve your issue.
+Copilot Chat може допомогти й з цим! Просто скопіюйте повідомлення про помилку та вставте його в чат. Часто цього достатньо, щоб Copilot вирішив проблему.
