@@ -1,7 +1,7 @@
 ## Арена заторів Міфосу
 
 <a href="#">
-   <img src="../../Images/mythos-arena-full.jpg" style="width: 830px" />
+   <img src="../../../Images/mythos-arena-full.jpg" style="width: 830px" />
 </a>
 
 ### Передісторія
@@ -53,7 +53,7 @@
 
       
       <a href="#">
-         <img src="../../Images/mythos-board-example.png">
+        <img src="../../../Images/mythos-board-example.png">
       </a>
 
 ### Обмеження
@@ -104,7 +104,7 @@
 ### Поради GitHub Copilot
 
 <a href="#">
-    <img src="../../Images/copilot-tips.jpg" style="width: 830px" />
+    <img src="../../../Images/copilot-tips.jpg" style="width: 830px" />
 </a>
 
 #### Використовуйте Copilot для підвищення ефективності

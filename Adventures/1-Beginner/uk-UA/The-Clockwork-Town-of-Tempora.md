@@ -1,7 +1,7 @@
 ## Механічне місто Темпора
 
 <a href="#">
-    <img src="../../Images/tempora-clocks.jpg"  style="width: 830px" />
+    <img src="../../../Images/tempora-clocks.jpg"  style="width: 830px" />
 </a>
 
 ### Передісторія
@@ -55,7 +55,7 @@
 ### Поради GitHub Copilot
 
 <a href="#">
-    <img src="../../Images/copilot-tips.jpg"  style="width: 830px" />
+    <img src="../../../Images/copilot-tips.jpg"  style="width: 830px" />
 </a>
 
 #### Використовуйте Copilot для підвищення ефективності

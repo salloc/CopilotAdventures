@@ -1,7 +1,7 @@
 ## Небесне вирівнювання Луморії
 
 <a href="#">
-    <img src="../../Images/lumoria.jpg" style="width: 830px" />
+    <img src="../../../Images/lumoria.jpg" style="width: 830px" />
 </a>
 
 ### Передісторія
@@ -63,7 +63,7 @@
 ### Поради GitHub Copilot
 
 <a href="#">
-    <img src="../../Images/copilot-tips.jpg" style="width: 830px" />
+    <img src="../../../Images/copilot-tips.jpg" style="width: 830px" />
 </a>
 
 Спершу вам потрібно занести дані про планети у структуру, з якою можна працювати.
