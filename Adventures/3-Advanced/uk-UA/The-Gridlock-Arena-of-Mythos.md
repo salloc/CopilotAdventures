@@ -89,54 +89,46 @@
 7. **Повернути остаточні бали**:
    - Після симуляції всіх ходів повернути фінальні бали кожної істоти.
 
-### Tips to Get Started
+### Поради для початку
 
-1. If you're using a GitHub Codespace, you're ready to go!
-1. If running locally, ensure that you have your target language/framework installed. 
+1. Якщо ви використовуєте GitHub Codespace, можете починати!
+2. Якщо працюєте локально, переконайтеся, що у вас встановлена обрана мова/фреймворк:
     - [Node.js](https://nodejs.org)
     - [Python](https://www.python.org/downloads/)
     - [.NET](https://dot.net)
-1. Create a folder for your code. 
-    - JavaScript: Create a folder called `mythos` and add a file named `app.js`.
-    - Python: Create a folder called `mythos` and add a file named `app.py`.
-    - C#: Create a folder called `mythos` and run `dotnet new console`.
+3. Створіть папку для коду:
+    - JavaScript: створіть папку `mythos` і додайте файл `app.js`.
+    - Python: створіть папку `mythos` і додайте файл `app.py`.
+    - C#: створіть папку `mythos` і виконайте `dotnet new console`.
 
-### GitHub Copilot Tips
+### Поради GitHub Copilot
 
 <a href="#">
-    <img src="../../Images/copilot-tips.jpg"  style="width: 830px" />
+    <img src="../../Images/copilot-tips.jpg" style="width: 830px" />
 </a>
 
-#### Use Copilot to improve efficiency
+#### Використовуйте Copilot для підвищення ефективності
 
-See if you can use Copilot to find out the complexity (BigO notation) of the code.
+Спробуйте дізнатися у Copilot складність алгоритму (нотація Big O).
 
-1. Open the [GitHub Copilot Chat view](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat#asking-your-first-question) in the sidebar if it's not already open. Make sure your solution file is still open as well.
+1. Відкрийте [GitHub Copilot Chat](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat#asking-your-first-question) у бічній панелі.
+2. Запитайте Copilot Chat про складність коду.
+3. Запитайте Copilot Chat про оптимізацію коду.
+4. Знову запитайте про складність — чи покращилась вона?
 
-1. Ask Copilot Chat what the complexity of the code is.
+#### Використовуйте Copilot для генерації коментарів до коду
 
-1. Ask Copilot Chat to make the code more efficient.
+1. Виділіть увесь код за допомогою <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>A</kbd>.
+2. Натисніть <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>I</kbd>, щоб відкрити вбудований чат.
+3. Введіть `/doc` і натисніть Enter.
+4. Прийміть згенерований коментар.
 
-1. Ask for the complexity again - is it better?
+#### Використовуйте Copilot, щоб спростити код
 
-#### Use Copilot to generate code comments
+1. Відкрийте GitHub Copilot Chat у бічній панелі.
+2. Введіть `/simplify` і натисніть <kbd>Enter</kbd>. Можете додати текст після `/simplify`, щоб надати додаткові інструкції.
+3. Які пропозиції зробив Copilot Chat, щоб спростити код?
 
-1. Highlight all of the code with <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>A</kbd>.
+#### Виправлення помилок
 
-1. Press <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>I</kbd> to open the inline chat. 
-
-1. Type "/doc"
-
-1. Ask Copilot Chat to document the function.
-
-#### Use Copilot to simplify your code
-
-1. Open GitHub Copilot Chat in the sidebar.
-
-1. Type "/simplify" and press <kbd>Enter</kbd>. You can also add any text you want after the "/simplify" to give Copilot more instructions.
-
-1. What did Copilot Chat suggest you do to make it simpler?
-
-#### Got Errors?
-
-Copilot Chat can help with that too! Just copy the error message and paste it into Chat. Often that's all Copilot needs to resolve your issue.
+Скопіюйте повідомлення про помилку та вставте його в чат. Copilot Chat допоможе вирішити проблему.
