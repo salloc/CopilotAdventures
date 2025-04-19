@@ -21,7 +21,7 @@
 Якщо ви віддаєте перевагу, можете скопіювати репозиторій та запустити його локально:
 
 ```bash
-git clone https://github.com/microsoft/copilotadventures
+git clone https://github.com/salloc/copilotadventures
 ```
 
 ### 2. Оберіть пригоду
@@ -61,7 +61,7 @@ git clone https://github.com/microsoft/copilotadventures
 Якщо ви хочете поділитися своїм рішенням з іншими, виконайте наступні кроки:
 
 - Опублікуйте своє рішення пригоди в репозиторії GitHub.
-- Перейдіть на https://github.com/microsoft/CopilotAdventures/issues та оберіть `New Issue`.
+- Перейдіть на https://github.com/salloc/CopilotAdventures/issues та оберіть `New Issue`.
 - Використайте таку схему для назви issue:
 
   ```
